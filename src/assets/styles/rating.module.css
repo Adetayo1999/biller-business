@@ -1,0 +1,6 @@
+.rating__text {
+  background: linear-gradient(135deg, #10462e 0%, #068568 54.17%, #01aca3 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

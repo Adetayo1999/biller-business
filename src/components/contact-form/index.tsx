@@ -101,7 +101,7 @@ const contactFormData = [
   {
     id: 1,
     title: "Phone Number",
-    body: "08186711799",
+    body: "(+44) 7453835529",
     icon: BsFillTelephoneFill,
   },
   {

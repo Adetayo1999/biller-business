@@ -49,13 +49,13 @@ export const Footer = () => {
                     <span>
                       <FaPhoneVolume className="text-xl" />
                     </span>
-                    <span>08186711799</span>
+                    <span>(+44) 7453835529</span>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <span>
                       <FaPhoneVolume className="text-xl" />
                     </span>
-                    <span>08132284613</span>
+                    <span>(+234) 8186711799</span>
                   </li>
                 </ul>
               </div>

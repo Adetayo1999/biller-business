@@ -3,6 +3,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { BsGlobeEuropeAfrica } from "react-icons/bs";
+import Link from "next/link";
 
 export const ContactForm = () => {
   return (
@@ -15,7 +16,7 @@ export const ContactForm = () => {
             </h2>
           </div>
           <div className="flex flex-col md:flex-row gap-y-10 md:gap-y-0 justify-between">
-            <div className="md:flex-[0.45] flex flex-col gap-y-[3.5rem]">
+            <div className="md:flex-[0.5] flex flex-col gap-y-[3.5rem]">
               <div className="">
                 <p className="text-[#8A8A8A]">
                   For any enquiry, feel free to contact us on all our social
@@ -23,17 +24,28 @@ export const ContactForm = () => {
                   and our team will reach out to you as soon as possible.
                 </p>
               </div>
-              <div className="grid w-full grid-cols-2 gap-y-[3rem]">
+              <div className="grid w-full grid-cols-1 md:grid-cols-2 gap-y-[3rem] md:gap-[3rem]">
                 {contactFormData.map((item) => (
                   <div className="flex gap-x-[1.25rem]" key={item.id}>
-                    <div className="w-[2.5rem] h-[2.5rem] rounded-full bg-primarybg text-white flex justify-center items-center">
+                    <div className="w-[2.5rem] h-[2.5rem] flex-shrink-0 rounded-full bg-primarybg text-white flex justify-center items-center">
                       <item.icon />
                     </div>
                     <div className="">
                       <h5 className="text-[#252525] font-medium ">
                         {item.title}
                       </h5>
-                      <p className="text-[#8A8A8A]">{item.body}</p>
+                      {item.href ? (
+                        <Link
+                          href={item.href}
+                          target="_blank"
+                          rel="noopener"
+                          className="text-[#8A8A8A]"
+                        >
+                          {item.body}
+                        </Link>
+                      ) : (
+                        <p className="text-[#8A8A8A]">{item.body}</p>
+                      )}
                     </div>
                   </div>
                 ))}
@@ -89,25 +101,27 @@ const contactFormData = [
   {
     id: 1,
     title: "Phone Number",
-    body: "+(234) 90 336 708 41",
+    body: "08186711799",
     icon: BsFillTelephoneFill,
   },
   {
     id: 2,
     title: "Email Address",
-    body: "bbsolu@gmail.com",
+    body: " billerbusinesssolution@gmail.com",
     icon: MdEmail,
+    href: "mailto:billerbusinesssolution@gmail.com",
   },
   {
     id: 3,
     title: "Official Address",
-    body: "Lekki Nigeria",
+    body: "8 Portal Way, Icon Tower, London, England, W3 6DU",
     icon: FaLocationDot,
   },
   {
     id: 4,
     title: "Visit Our Website",
-    body: "www.bbsolu.com",
+    body: "www.biller-business.vercel.app",
     icon: BsGlobeEuropeAfrica,
+    href: "https://biller-business.vercel.app",
   },
 ];

@@ -1,3 +1,4 @@
+"use client";
 import { Product } from "@/components/Product";
 import { Partners } from "@/components/common/partners";
 import { Rating } from "@/components/common/rating";
@@ -6,8 +7,11 @@ import { Container } from "@/components/skeleton";
 import moneyLogo from "@/assets/images/money-img.png";
 import billerBTCImage from "@/assets/images/billerbtc-img.png";
 import aboutImage from "@/assets/images/about-img.png";
+import { useRouter } from "next/navigation";
 
 const About = () => {
+  const router = useRouter();
+
   return (
     <main className="flex flex-col gap-y-[7rem]">
       <Container>
@@ -33,11 +37,13 @@ const About = () => {
         description="An all-in-one mobile app designed to simplify and streamline bill payments across various sectors. Billerpay is a versatile platform that allows users to conveniently and securely handle a wide range of transactions. including mobile top-ups, flight bookings, e-commerce purchases, and gaming credits."
         title="Billerpay"
         image={moneyLogo}
+        onClick={() => router.push("https://billerpay.vercel.app")}
       />
       <Product
         description="A crypto wallet in which you can store all your cryptos and NFTs, pay, exchange and stake crypto in a secured mobile & desktop app, protect your digital assets with industry-leading security."
         image={billerBTCImage}
         title="BillerVest"
+        onClick={() => router.push("https://billervest.vercel.app")}
       />
       <Container>
         <Rating />

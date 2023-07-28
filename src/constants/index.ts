@@ -17,7 +17,7 @@ export const navigationData = [
   {
     id: 3,
     title: "Service",
-    path: "/service",
+    path: "#partners",
   },
   {
     id: 4,

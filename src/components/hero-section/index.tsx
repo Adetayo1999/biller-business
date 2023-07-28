@@ -2,6 +2,7 @@ import { Container } from "../skeleton";
 import { FaArrowRightLong } from "react-icons/fa6";
 import bannerImage from "@/assets/images/banner-image.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export const HeroSection = () => {
   return (
@@ -42,12 +43,17 @@ export const HeroSection = () => {
                 <p className="font-medium text-xl text-[#252525]">BillerVest</p>
               </div>
               <div className="border-primary pl-[2.875rem] md:border-l-2">
-                <button className="flex items-center gap-x-3 text-primary font-semibold">
+                <Link
+                  href="https://billervest.vercel.app/ "
+                  target="_blank"
+                  rel="noopener"
+                  className="flex items-center gap-x-3 text-primary font-semibold"
+                >
                   <span className="underline">Get Started</span>
                   <span>
                     <FaArrowRightLong className="text-lg" />
                   </span>
-                </button>
+                </Link>
               </div>
             </div>
             <div className="flex items-center ">
@@ -69,12 +75,17 @@ export const HeroSection = () => {
                 <p className="font-medium text-xl text-[#252525]">BillerPay</p>
               </div>
               <div className="border-primary pl-[2.875rem] md:border-l-2">
-                <button className="flex items-center gap-x-3 text-primary font-semibold">
+                <Link
+                  className="flex items-center gap-x-3 text-primary font-semibold"
+                  href="https://billerpay.vercel.app/"
+                  target="_blank"
+                  rel="noopener"
+                >
                   <span className="underline">Get Started</span>
                   <span>
                     <FaArrowRightLong className="text-lg" />
                   </span>
-                </button>
+                </Link>
               </div>
             </div>
           </div>

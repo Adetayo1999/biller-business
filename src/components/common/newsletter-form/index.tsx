@@ -14,10 +14,10 @@ export const NewsLetterForm = () => {
           <div className="flex-[0.45] flex flex-col justify-between gap-y-5">
             <div className="">
               <h2 className="font-raleway text-2xl md:text-[2.8rem] font-semibold md:leading-[3.2rem]">
-                Let&apos;s Make Something Together for Results
+                Empowering Growth Through Technology
               </h2>
             </div>
-            <div className="flex justify-between items-center">
+            <div className="flex flex-col gap-y-6 md:flex-row md:gap-y-0 justify-between md:items-center">
               <p className="font-medium">Follow Our Social Media</p>
               <div className="flex gap-x-5">
                 {socialLinks.map((item) => (

@@ -3,8 +3,12 @@ import styles from "@/assets/styles/rating.module.css";
 export const Rating = () => {
   return (
     <div className="flex flex-col gap-y-10 md:gap-y-0 md:flex-row md:justify-between   ">
-      <div className="flex gap-x-[1.125rem] items-center">
-        <h1 className={`${styles.rating__text} text-4xl font-medium`}>28K</h1>
+      <div className="flex gap-x-[1.125rem]  items-center">
+        <h1
+          className={`${styles.rating__text} text-4xl font-medium w-[4.5rem] md:w-fit `}
+        >
+          28K
+        </h1>
         <div className="flex">
           <div className="h-[3rem] w-[0.0063rem] mr-[0.625rem] bg-[#E8E8E8] hidden md:inline" />
           <div className="">
@@ -16,7 +20,11 @@ export const Rating = () => {
         </div>
       </div>
       <div className="flex gap-x-[1.125rem] items-center">
-        <h1 className={`${styles.rating__text} text-4xl font-medium`}>5.0</h1>
+        <h1
+          className={`${styles.rating__text} text-4xl font-medium w-[4.5rem] md:w-fit`}
+        >
+          5.0
+        </h1>
         <div className="flex">
           <div className="h-[3rem] w-[0.0063rem] mr-[0.625rem] bg-[#E8E8E8]  hidden md:inline" />
           <div className="">
@@ -28,7 +36,11 @@ export const Rating = () => {
         </div>
       </div>
       <div className="flex gap-x-[1.125rem] items-center">
-        <h1 className={`${styles.rating__text} text-4xl font-medium`}>10K</h1>
+        <h1
+          className={`${styles.rating__text} text-4xl font-medium w-[4.5rem] md:w-fit`}
+        >
+          10K
+        </h1>
         <div className="flex">
           <div className="h-[3rem] w-[0.0063rem] mr-[0.625rem] bg-[#E8E8E8] hidden md:inline" />
           <div className="">

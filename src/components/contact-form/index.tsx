@@ -80,7 +80,7 @@ export const ContactForm = () => {
                     id=""
                     cols={30}
                     rows={10}
-                    className=" border-2 border-[#E2E2E2] rounded-[0.438rem] placeholder:text-[#8A8A8A] px-6 outline-none"
+                    className=" border-2 border-[#E2E2E2] rounded-[0.438rem] placeholder:text-[#8A8A8A] p-6 outline-none"
                   ></textarea>
                 </div>
                 <div className="">

@@ -5,6 +5,7 @@ import { CreateBrand } from "@/components/create-brand";
 import { CustomButton } from "@/components/forms/button";
 import { CustomInput } from "@/components/forms/input";
 import { Container } from "@/components/skeleton";
+import Link from "next/link";
 
 const Signup = () => {
   return (
@@ -28,6 +29,14 @@ const Signup = () => {
             />
             <div className="flex justify-center mt-8">
               <CustomButton title="Create Account" />
+            </div>
+            <div className="text-center">
+              <p>
+                Already Registered?{" "}
+                <Link href="/login" className="underline">
+                  Login
+                </Link>
+              </p>
             </div>
           </form>
         </div>

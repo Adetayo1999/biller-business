@@ -3,6 +3,7 @@ import { CreateBrand } from "@/components/create-brand";
 import { CustomButton } from "@/components/forms/button";
 import { CustomInput } from "@/components/forms/input";
 import { Container } from "@/components/skeleton";
+import Link from "next/link";
 
 const Login = () => {
   return (
@@ -19,6 +20,14 @@ const Login = () => {
             <CustomInput labelText="Password" name="password" type="password" />
             <div className="flex justify-center mt-8">
               <CustomButton title="Login" />
+            </div>
+            <div className="text-center">
+              <p>
+                Not Registered?{" "}
+                <Link href="/signup" className="underline">
+                  Register
+                </Link>
+              </p>
             </div>
           </form>
         </div>

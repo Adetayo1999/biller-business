@@ -68,7 +68,7 @@ export const Footer = () => {
             <div className="">
               <ul className="flex flex-col gap-y-5">
                 {usefulLinks.map((item) => (
-                  <li>
+                  <li key={item.id}>
                     <Link
                       href={item.path}
                       className="flex  gap-x-2 items-center"
@@ -90,7 +90,7 @@ export const Footer = () => {
             <div className="">
               <ul className="flex flex-col gap-y-5">
                 {informationLinks.map((item) => (
-                  <li>
+                  <li key={item.id}>
                     <Link
                       href={item.path}
                       className="flex  gap-x-2 items-center"

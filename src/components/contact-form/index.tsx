@@ -107,9 +107,9 @@ const contactFormData = [
   {
     id: 2,
     title: "Email Address",
-    body: " billerbusinesssolution@gmail.com",
+    body: "hello@billerbusiness.co",
     icon: MdEmail,
-    href: "mailto:billerbusinesssolution@gmail.com",
+    href: "mailto:hello@billerbusiness.co",
   },
   {
     id: 3,
@@ -120,8 +120,8 @@ const contactFormData = [
   {
     id: 4,
     title: "Visit Our Website",
-    body: "www.biller-business.vercel.app",
+    body: "www.billerbusiness.co",
     icon: BsGlobeEuropeAfrica,
-    href: "https://biller-business.vercel.app",
+    href: "https://billerbusiness.co",
   },
 ];

@@ -32,14 +32,14 @@ export const Partners = () => {
             </button>
             <div className="flex gap-x-12 items-center">
               <Link
-                href="https://billerpay.vercel.app/"
+                href="https://billerpay.store/"
                 target="_blank"
                 rel="noopener"
               >
                 <Image src={billerpayLogo} width={130} alt="Billerpay" />
               </Link>
               <Link
-                href="https://billervest.vercel.app/ "
+                href="https://billervest.co/ "
                 target="_blank"
                 rel="noopener"
               >

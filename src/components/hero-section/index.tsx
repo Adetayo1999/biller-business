@@ -37,7 +37,7 @@ export const HeroSection = () => {
               </div>
               <div className="border-primary pl-[2.875rem] md:border-l-2">
                 <Link
-                  href="https://billervest.vercel.app/ "
+                  href="https://billervest.co/ "
                   target="_blank"
                   rel="noopener"
                   className="flex items-center gap-x-3 text-primary font-semibold"
@@ -61,7 +61,7 @@ export const HeroSection = () => {
               <div className="border-primary pl-[2.875rem] md:border-l-2">
                 <Link
                   className="flex items-center gap-x-3 text-primary font-semibold"
-                  href="https://billerpay.vercel.app/"
+                  href="https://billerpay.store/"
                   target="_blank"
                   rel="noopener"
                 >

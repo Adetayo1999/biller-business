@@ -77,7 +77,7 @@ export const socialLinks = [
     id: 1,
     title: "Mail",
     icon: IoMdMail,
-    href: "mailto:billerbusinesssolution@gmail.com",
+    href: "mailto:hello@billerbusiness.co",
   },
   {
     id: 2,

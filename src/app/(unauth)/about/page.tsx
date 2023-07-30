@@ -37,13 +37,13 @@ const About = () => {
         description="An all-in-one mobile app designed to simplify and streamline bill payments across various sectors. Billerpay is a versatile platform that allows users to conveniently and securely handle a wide range of transactions. including mobile top-ups, flight bookings, e-commerce purchases, and gaming credits."
         title="Billerpay"
         image={moneyLogo}
-        onClick={() => router.push("https://billerpay.vercel.app")}
+        onClick={() => router.push("https://billerpay.store")}
       />
       <Product
         description="A crypto wallet in which you can store all your cryptos and NFTs, pay, exchange and stake crypto in a secured mobile & desktop app, protect your digital assets with industry-leading security."
         image={billerBTCImage}
         title="BillerVest"
-        onClick={() => router.push("https://billervest.vercel.app")}
+        onClick={() => router.push("https://billervest.co")}
       />
       <Container>
         <Rating />

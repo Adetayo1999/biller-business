@@ -17,7 +17,7 @@ export const Product = ({
   return (
     <div className="">
       <Container>
-        <div className="flex flex-col md:flex-row gap-y-10 md:gap-y-0 justify-between ">
+        <div className="flex flex-col md:flex-row md:items-center gap-y-10 md:gap-y-0 justify-between ">
           <div className="flex-[0.45] flex flex-col gap-y-6">
             <h3 className="text-primary font-raleway font-semibold text-[2.5rem] md:text-[4rem] md:leading-[4.5rem]">
               {title}
@@ -31,7 +31,7 @@ export const Product = ({
             </button>
           </div>
           <div className="flex-[0.45]">
-            <Image src={image} alt={title} />
+            <Image src={image} alt={title} className=" object-contain" />
           </div>
         </div>
       </Container>

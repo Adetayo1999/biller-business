@@ -8,6 +8,8 @@ import moneyLogo from "@/assets/images/money-img.png";
 import billerBTCImage from "@/assets/images/billerbtc-img.png";
 import aboutImage from "@/assets/images/about-img.png";
 import { useRouter } from "next/navigation";
+import billerpayImage from "@/assets/images/billerpay-image.png";
+import billervestImage from "@/assets/images/billervest-image.png";
 
 const About = () => {
   const router = useRouter();
@@ -36,12 +38,12 @@ const About = () => {
       <Product
         description="An all-in-one mobile app designed to simplify and streamline bill payments across various sectors. Billerpay is a versatile platform that allows users to conveniently and securely handle a wide range of transactions. including mobile top-ups, flight bookings, e-commerce purchases, and gaming credits."
         title="Billerpay"
-        image={moneyLogo}
+        image={billerpayImage}
         onClick={() => router.push("https://billerpay.store")}
       />
       <Product
         description="A crypto wallet in which you can store all your cryptos and NFTs, pay, exchange and stake crypto in a secured mobile & desktop app, protect your digital assets with industry-leading security."
-        image={billerBTCImage}
+        image={billervestImage}
         title="BillerVest"
         onClick={() => router.push("https://billervest.co")}
       />

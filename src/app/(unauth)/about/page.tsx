@@ -4,8 +4,6 @@ import { Partners } from "@/components/common/partners";
 import { Rating } from "@/components/common/rating";
 import { RefreshBrand } from "@/components/refresh-brand";
 import { Container } from "@/components/skeleton";
-import moneyLogo from "@/assets/images/money-img.png";
-import billerBTCImage from "@/assets/images/billerbtc-img.png";
 import aboutImage from "@/assets/images/about-img.png";
 import { useRouter } from "next/navigation";
 import billerpayImage from "@/assets/images/billerpay-image.png";

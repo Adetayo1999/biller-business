@@ -9,7 +9,7 @@ import { RefreshBrand } from "@/components/refresh-brand";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-y-[7rem]">
+    <main className="flex flex-col gap-y-[7rem]  ">
       <HeroSection />
       <Partners />
       <RefreshBrand />

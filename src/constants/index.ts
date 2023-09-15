@@ -63,12 +63,12 @@ export const informationLinks = [
   {
     id: 3,
     title: "Privacy & Policy",
-    path: "#",
+    path: "/privacy",
   },
   {
     id: 4,
     title: "Terms & Conditions",
-    path: "#",
+    path: "/terms",
   },
 ];
 
@@ -98,3 +98,9 @@ export const socialLinks = [
     href: "https://instagram.com/Billerbusinesssolution",
   },
 ];
+
+export const billerEmail = "hello@billerbusiness.co";
+export const billerAddress =
+  "   Address: 8 Portal Way, Icon Tower, London, England, W3 6DU";
+export const billerPhone = "+447453835529";
+

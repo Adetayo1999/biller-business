@@ -14,7 +14,7 @@ const TermsAndCondition = () => {
         ))}
         <div className="">
           <h2 className="text-xl md:text-[1.75rem] leading-normal font-semibold text-[#252525] font-raleway">
-            7. Contact Us
+            9. Contact Us
           </h2>
           <p className="text-[#8A8A8A] text-base md:text-lg ">
             For any inquiries or concerns, feel free to contact us at:
@@ -61,6 +61,7 @@ const data: Array<{ header: string; body: any }> = [
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-600 cursor-pointer "
+          href="https://billerbusiness.co"
         >
           {" "}
           www.billerbusiness.co.
@@ -69,23 +70,31 @@ const data: Array<{ header: string; body: any }> = [
     ),
   },
   {
-    header: "Services",
-    body: "Biller Business Solution offers a range of services including but not limited to BillerVest and BillerPay, which facilitate bill payments and the creation of wallets, primarily in Nigeria. We also offer business solutions tailored to meet the unique needs of your business, helping you to unlock your business's true potential.",
+    header: "User Eligibility",
+    body: "The website and its services are intended for users who are 18 years of age and above. By using our services, you represent that you meet the age requirement.",
   },
   {
-    header: "User Obligations",
-    body: "Users are expected to use our services responsibly and in accordance with all applicable laws and regulations. Misuse of our services is strictly prohibited.",
+    header: "Services",
+    body: "Biller Business Solution offers a range of services including BillerVest and BillerPay, facilitating bill payments and wallet creations, primarily in Nigeria. We also provide business solutions tailored to unlock your business's true potential.",
+  },
+  {
+    header: "Registration Requirements",
+    body: "Users may be required to register and provide certain personal information to access specific features or services.",
   },
   {
     header: "Intellectual Property",
     body: "All content available on the website, including but not limited to text, graphics, logos, and images, is the property of Biller Business Solution and is protected by copyright laws.",
   },
   {
-    header: "Limitation of Liability",
+    header: "Limitation Of Liability",
     body: "Biller Business Solution shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use our services.",
   },
   {
-    header: "Governing Law",
+    header: "Prohibited Activities",
+    body: "Users are prohibited from engaging in activities that violate the laws and regulations, infringe on the rights of others, or interfere with the functioning of the website.",
+  },
+  {
+    header: "Jurisdiction",
     body: "These terms and conditions shall be governed by the laws of England.",
   },
 ];

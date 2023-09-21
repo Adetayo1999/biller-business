@@ -15,10 +15,11 @@ const Privacy = () => {
         ))}
         <div className="">
           <h2 className="text-xl md:text-[1.75rem] leading-normal font-semibold text-[#252525] font-raleway">
-            7. Contact Us
+            8. Contact Us
           </h2>
           <p className="text-[#8A8A8A] text-base md:text-lg ">
-            For any inquiries or concerns, feel free to contact us at:
+            If you have any questions about this privacy policy, please contact
+            us at:
           </p>
           <div className="">
             <p className="text-[#8A8A8A] text-base md:text-lg ">
@@ -54,22 +55,43 @@ const data: Array<{ header: string; body: any }> = [
   },
   {
     header: "Information Collection",
-    body: "We may collect personal information such as name, email address, and contact number when you register on our platforms or contact us for inquiries. As part of our KYC (Know Your Customer) process, we may also collect sensitive information including government-issued ID and proof of life to verify the identity of our customers. This process helps us maintain a safe and secure environment for all users.",
+    body: "We collect personal information such as name, email address, and contact number during registration or inquiries. As part of our KYC process, we may also collect government-issued ID and proof of life for customer verification.",
   },
   {
     header: "Use of Information",
-    body: "We use the collected information to provide and improve our services, respond to inquiries, send updates about our offerings, and for customer verification processes to comply with legal and regulatory requirements.",
+    body: "The collected information is used to provide and improve our services, respond to inquiries, and comply with legal and regulatory requirements",
   },
   {
-    header: "Information Security",
-    body: "We are committed to ensuring the security of your information. We have implemented reasonable security measures to protect your personal information from unauthorized access, use, or disclosure. Sensitive information such as government-issued IDs and proof of life documents are handled with utmost confidentiality and stored securely.",
+    header: "Data Controller and DPO",
+    body: (
+      <>
+        <span>
+          The data controller for the website is Biller Business Solution. For
+          any concerns regarding your data, please contact our Data Protection
+          Officer at{" "}
+        </span>{" "}
+        <a
+          href="mailto:dpo@billerbusiness.co"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 cursor-pointer "
+        >
+          DPO@billerbusiness.co
+        </a>
+        .
+      </>
+    ),
   },
   {
-    header: "Information Sharing",
-    body: "We do not sell or share your personal information with third parties, except as necessary to provide our services, comply with legal obligations, or as detailed in this privacy policy.",
+    header: "User Rights",
+    body: "Users have rights under the GDPR to access, correct, or delete their personal information held by us. ",
   },
   {
-    header: "Your Rights",
-    body: "You have the right to access, correct, or delete your personal information held by us. To exercise these rights, please contact us using the details provided below.",
+    header: "Data Security",
+    body: "We implement stringent security measures to protect your personal information from unauthorized access, use, or disclosure.",
+  },
+  {
+    header: "Cookies Policy",
+    body: "We use cookies to optimize our site and provide a better user experience. For more details, please refer to our separate [Cookies Policy](#).",
   },
 ];

@@ -47,6 +47,25 @@ export default Privacy;
 
 const data: Array<{ header: string; body: any }> = [
   {
+    header: "Update",
+    body: (
+      <>
+        <span>
+          Update our website, Terms & Conditions, and Privacy Policy with the complete details of our legal entity.
+          Below are the details:
+        </span>
+
+        <div className="">
+          <p className="text-[#8A8A8A] text-base md:text-lg ">Legal Name: Biller Business Solution Ltd</p>
+          <p className="text-[#8A8A8A] text-base md:text-lg ">Registration Number: 14670232</p>
+          <p className="text-[#8A8A8A] text-base md:text-lg ">
+            Registered Address: 8 Portal Way, Icon Tower, London, England, W3 6DU
+          </p>
+        </div>
+      </>
+    ),
+  },
+  {
     header: "Introduction",
     body: "At Biller Business Solution, we prioritize the privacy and security of our users' information. This Privacy Policy outlines our commitment to safeguarding your data and the practices we employ to ensure this protection.",
   },
@@ -59,22 +78,22 @@ const data: Array<{ header: string; body: any }> = [
         </span>
 
         <div className="">
-            <p className="text-[#8A8A8A] text-base md:text-lg ">
-              Phone:
-              <a href={`tel:${billerPhone}`} className="text-blue-600">
-                {" "}
-                (+44) 7453835529
-              </a>
-            </p>
-            <p className="text-[#8A8A8A] text-base md:text-lg ">
-              Email:
-              <a href={`mailto:${billerEmail}`} className="text-blue-600">
-                {" "}
-                {billerEmail}
-              </a>
-            </p>
-            <p className="text-[#8A8A8A] text-base md:text-lg ">{billerAddress}</p>
-          </div>
+          <p className="text-[#8A8A8A] text-base md:text-lg ">
+            Phone:
+            <a href={`tel:${billerPhone}`} className="text-blue-600">
+              {" "}
+              (+44) 7453835529
+            </a>
+          </p>
+          <p className="text-[#8A8A8A] text-base md:text-lg ">
+            Email:
+            <a href={`mailto:${billerEmail}`} className="text-blue-600">
+              {" "}
+              {billerEmail}
+            </a>
+          </p>
+          <p className="text-[#8A8A8A] text-base md:text-lg ">{billerAddress}</p>
+        </div>
       </>
     ),
   },

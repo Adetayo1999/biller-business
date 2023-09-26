@@ -17,20 +17,12 @@ export const Footer = () => {
                 <Image src={logoWhite} alt="Billerpay Logo" />
               </div>
               <div className="">
-                <p className="text-sm">
-                  Get in touch for long lasting business solutions.
-                </p>
+                <p className="text-sm">Get in touch for long lasting business solutions.</p>
               </div>
             </div>
             <div className="flex gap-x-5">
               {socialLinks.map((item) => (
-                <Link
-                  href={item.href}
-                  title={item.title}
-                  key={item.id}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Link href={item.href} title={item.title} key={item.id} target="_blank" rel="noopener noreferrer">
                   <item.icon className="text-2xl" />
                 </Link>
               ))}
@@ -69,10 +61,7 @@ export const Footer = () => {
               <ul className="flex flex-col gap-y-5">
                 {usefulLinks.map((item) => (
                   <li key={item.id}>
-                    <Link
-                      href={item.path}
-                      className="flex  gap-x-2 items-center"
-                    >
+                    <Link href={item.path} className="flex  gap-x-2 items-center">
                       <span>
                         <MdKeyboardArrowRight className="text-xl" />
                       </span>
@@ -91,10 +80,7 @@ export const Footer = () => {
               <ul className="flex flex-col gap-y-5">
                 {informationLinks.map((item) => (
                   <li key={item.id}>
-                    <Link
-                      href={item.path}
-                      className="flex  gap-x-2 items-center"
-                    >
+                    <Link href={item.path} className="flex  gap-x-2 items-center">
                       <span>
                         <MdKeyboardArrowRight className="text-xl" />
                       </span>
@@ -106,10 +92,23 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="">
-          <p className="md:text-center">
-            Copyright &copy; {new Date().getFullYear()}
-          </p>
+        <div className="mb-8">
+          <p className="md:text-center">Copyright &copy; {new Date().getFullYear()}</p>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <span>
+            Update our website, Terms & Conditions, and Privacy Policy with the complete details of our legal entity.
+            Below are the details:
+          </span>
+
+          <div className="flex flex-col items-center">
+            <p className="text-[#8A8A8A] text-base md:text-lg ">Legal Name: Biller Business Solution Ltd</p>
+            <p className="text-[#8A8A8A] text-base md:text-lg ">Registration Number: 14670232</p>
+            <p className="text-[#8A8A8A] text-base md:text-lg ">
+              Registered Address: 8 Portal Way, Icon Tower, London, England, W3 6DU
+            </p>
+          </div>
         </div>
       </Container>
     </footer>

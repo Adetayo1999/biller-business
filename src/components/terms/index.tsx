@@ -49,6 +49,30 @@ export default TermsAndCondition;
 
 const data: Array<{ header: string; body: any }> = [
   {
+    header: "Update",
+    body: (
+      <>
+        <span>
+          Update our website, Terms & Conditions, and Privacy Policy with the complete details of our legal entity.
+          Below are the details:
+        </span>
+
+
+        <div className="">
+            <p className="text-[#8A8A8A] text-base md:text-lg ">
+              Legal Name: Biller Business Solution Ltd
+            </p>
+            <p className="text-[#8A8A8A] text-base md:text-lg ">
+              Registration Number: 14670232
+            </p>
+            <p className="text-[#8A8A8A] text-base md:text-lg ">
+              Registered Address: 8 Portal Way, Icon Tower, London, England, W3 6DU  
+            </p>
+          </div>
+      </>
+    ),
+  },
+  {
     header: "Introduction",
     body: "Welcome to Biller Business Solution. These comprehensive Terms & Conditions outline the rules and regulations for the use of our Website and Services, ensuring a clear understanding and agreement between the users and the company.",
   },

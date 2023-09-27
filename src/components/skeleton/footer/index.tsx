@@ -97,12 +97,7 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col items-center">
-          <span>
-            Update our website, Terms & Conditions, and Privacy Policy with the complete details of our legal entity.
-            Below are the details:
-          </span>
-
-          <div className="flex flex-col items-center">
+         <div className="flex flex-col items-center">
             <p className="text-[#8A8A8A] text-base md:text-lg ">Legal Name: Biller Business Solution Ltd</p>
             <p className="text-[#8A8A8A] text-base md:text-lg ">Registration Number: 14670232</p>
             <p className="text-[#8A8A8A] text-base md:text-lg ">
